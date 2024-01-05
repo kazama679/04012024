@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 500px;
+    width: 520px;
+    background-color: rgb(214, 235, 228);
+    padding: 10px;
+}
+
+.text-img{
+    position: relative;
+}
+
+.sky{
+    position: absolute;
+    bottom: 220px;
+    color: rgb(184, 188, 192);
+    margin-left: 400px;
+    border: 1px solid;
+    padding: 5px;   
+}
+
+.img2{
+    border-radius: 50%;
+}
+.img1{
+    border-radius: 2%;
+}
+
+b{
+    padding: 15px;
+}
+
+.img-text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
